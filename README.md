@@ -27,7 +27,8 @@ $ brew services start redis
 $ git clone https://github.com/ddurgesh28/node-workers-example
 $ cd node-workers-example
 
-$ heroku create
+$ heroku apps:create <your-app-name>
+$ heroku apps:transfer heroku-india-workshop --app <your-app-name>
 $ heroku addons:create heroku-redis
 $ git push heroku master
 $ heroku ps:scale worker=1
