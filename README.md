@@ -4,7 +4,7 @@ Redis-backed background worker example using [OptimalBits/bull](https://github.c
 
 ![Application Screenshot](https://user-images.githubusercontent.com/175496/55593654-80d41300-56f1-11e9-9366-2eb60bbcf38c.png)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/heroku-examples/node-workers-example)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/ddurgesh28/node-workers-example)
 
 ## Installing Local Dependencies
 
@@ -24,7 +24,7 @@ $ brew services start redis
 ## Deploying
 
 ```
-$ git clone git@github.com:heroku-examples/node-workers-example.git
+$ git clone https://github.com/ddurgesh28/node-workers-example
 $ cd node-workers-example
 
 $ heroku create
